@@ -37,14 +37,12 @@ body { /* git works? */
   text-transform: uppercase;
 }
 
-.menu {
+.header-bottom {
   position: relative;
   width: 100%;
   background-color: gray;
-  margin: auto;
   text-align: center;
 }
-
 li {
   display: inline-block;
   padding: 10px;
@@ -65,15 +63,24 @@ main::after {
 }
 
 .lateral {
-  width: 20%;
+  width: 10%;
   float: left;
 }
 #central {
   width: 50%;
   background-color: white;
   float: left;
-  margin: 0 5%;
+  margin: 0 15%;
   border-radius: 7px;
+}
+#central h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#central p {
+  margin-left: 10px;
 }
 
 .widget {
@@ -81,12 +88,12 @@ main::after {
   margin-bottom: 10px;
   border-radius: 7px;
 }
-.title {
+h4 {
   text-align: center;
 }
 .paragraph {
   margin-top: 20px;
-  text-align: center;
+  margin-left: 10px;
 }
 
 footer {
@@ -97,9 +104,9 @@ footer {
   background-color: white;
   color: lightgray;
   text-align: center;
-  margin-top: 400px;
+  margin-top: 40px;
 }
-h3 {
+h2 {
   border-bottom: 1px solid lightgray;
 }
  i {
